@@ -8,6 +8,8 @@
 .main-component{
   width: 100%;
   height: 100%;
+  display: flex;
+  flex-direction: row;
   /* border: 2px solid red; */
 }
 .display-conatct{
@@ -17,4 +19,121 @@
   height: 100%;
   background-color: lightblue;
   border-right: 3px solid gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  overflow-y: auto;
+}
+.contact-item{
+  width: 80%;
+  height: 100px;
+  position: relative;
+  padding: 10px 15px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+.val-display{
+  font-size: 20px;
+  text-align: center;
+}
+.val-display:first-child{
+  font-weight: bold;
+}
+.func-component{
+  position: relative;
+  width: 75%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.create-cont{
+  width: 100%;
+  height: 100%;
+  background-color: lightyellow;
+  display: flex;
+}
+.select-function{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  height: 100%;
+  padding: 10px;
+}
+.virtual-func{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.functional-input{
+  width: 90%;
+  height: 20%;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+.contact-create-div,.update-contact-div,.delete-conatct-div{
+  width: 45%;
+  height: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border: 2px solid red;
+  margin: 2px;
+}
+.find-contact-div{
+  width: 45%;
+  height: 45%;
+  border: 2px solid red;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 2px;
+}
+.find-input{
+  position: relative;
+  top: 0px;
+  align-self: flex-start;
+  display: flex;
+}
+label,button{
+  margin: 10px;
+}
+.found-contact{
+  height: 55%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.contact-show{
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  border: 2px solid black;
+}
+.text-show{
+  text-align: center;
+}
+.contact-selected{
+  background-color: red;
+  color: white;
+}
+.title-to-del{
+  font-size: 10px;
+  
 }
